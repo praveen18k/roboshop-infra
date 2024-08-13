@@ -13,5 +13,9 @@ module "this" {
   # private subnet creation
   private_subnet_cidr  = var.private_subnet_cidr
   private_subnet_names = var.private_subnet_names
+
+  # database subnet creation
+  database_subnet_cidr  = var.database_subnet_cidr
+  database_subnet_names = var.database_subnet_names
 }
 
