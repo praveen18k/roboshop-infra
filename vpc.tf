@@ -10,5 +10,8 @@ module "this" {
   azs                 = var.azs
   public_subnet_names = var.public_subnet_names
 
+  # private subnet creation
+  private_subnet_cidr  = var.private_subnet_cidr
+  private_subnet_names = var.private_subnet_names
 }
 
