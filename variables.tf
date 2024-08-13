@@ -15,3 +15,10 @@ variable "vpc_tags" {
     Name = "roboshop"
   }
 }
+
+variable "internet_gateway_tags" {
+  default = {
+    Name = "roboshop"
+  }
+
+}
